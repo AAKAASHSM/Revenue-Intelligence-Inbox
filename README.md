@@ -147,6 +147,22 @@ npm run dev -- --host 127.0.0.1 --port 5173
 ```
 *Frontend Application will be available at:* `http://127.0.0.1:5173`
 
+### Option C: Deploy to Vercel (One-Click Cloud Deployment)
+
+The project includes built-in Vercel configuration (`vercel.json`, `api/index.py`, and root `package.json`):
+
+1. **Import Project into Vercel:**
+   - Log into [Vercel](https://vercel.com) and click **"Add New Project"** -> **"Import Git Repository"**.
+   - Select `AAKAASHSM/Revenue-Intelligence-Inbox`.
+2. **Configure Settings:**
+   - **Framework Preset:** Vite (or Other / Default)
+   - **Root Directory:** `./` (Default)
+   - Build and output settings are automatically managed by `vercel.json` (`cd frontend && npm install && npm run build` -> `frontend/dist`).
+3. **Environment Variables:**
+   - Add `GEMINI_API_KEY`: `your_gemini_api_key_here` (optional: `GEMINI_MODEL=gemini-1.5-flash`).
+4. **Deploy:**
+   - Click **Deploy**. Vercel deploys the Vite frontend as edge static files and the FastAPI backend as a Python serverless function at `/api`.
+
 ---
 
 ## 6. Data Replay & Demonstration Guide

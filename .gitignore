@@ -48,3 +48,5 @@ yarn-error.log*
 exports/*.zip
 .DS_Store
 Thumbs.db
+.vercel
+
