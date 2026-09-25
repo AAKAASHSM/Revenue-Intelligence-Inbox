@@ -1,0 +1,40 @@
+{
+  "source_type": "meeting",
+  "source_id": "398672e7-62dd-5afd-846d-0237d49792fb",
+  "record_ref": "M03",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "deal_next_steps",
+    "customer_follow_up"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Asterloom Systems finance team reviewed SpendNest corporate cards and reimbursement workflows. Customer B stressed prioritizing cards first to replace manual employee reimbursements.",
+    "why_it_matters": "Clear phased adoption path: initial deployment focused on corporate cards before tackling broader accounting integration.",
+    "evidence": [
+      {
+        "turn": 3,
+        "quote": "Cards first. Our overseas team already has a provider they like. Here we reimburse employees through payroll.",
+        "reason": "Customer establishes immediate deployment scope and geographical focus."
+      }
+    ],
+    "not_established": [
+      "Spend volume for domestic employee reimbursements.",
+      "Whether overseas team would consider consolidating later."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Prepare corporate card proposal with limits configuration tailored for local domestic team.",
+        "owner": null
+      }
+    ],
+    "suggested_routes": [
+      "deal_next_steps",
+      "customer_follow_up"
+    ],
+    "review_required": false
+  }
+}

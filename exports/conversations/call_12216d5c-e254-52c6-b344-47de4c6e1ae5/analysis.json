@@ -1,0 +1,45 @@
+{
+  "source_type": "call",
+  "source_id": "12216d5c-e254-52c6-b344-47de4c6e1ae5",
+  "record_ref": "C06",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "sales_coaching",
+    "needs_human_review"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Cold call to Nikhil exploring payables workflow. Rep introduced SpendNest's vendor handling features. Discrepancy noted between account display name and spoken introduction ('Ravi here').",
+    "why_it_matters": "Discrepancy between rep display name and spoken name warrants manager awareness for QA/tracking.",
+    "evidence": [
+      {
+        "turn": null,
+        "quote": "Ravi here. I'll say at the start that this is a cold call.",
+        "reason": "Caller verbally identifies as Ravi while record rep is listed under Meera's account."
+      },
+      {
+        "turn": null,
+        "quote": "We work with companies managing multiple vendor payment approvals.",
+        "reason": "Articulates invoice handling use case."
+      }
+    ],
+    "not_established": [
+      "Reason for mismatch between account profile and spoken rep identity.",
+      "Nikhil's internal timeline for vendor workflow improvements."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Review telephony login / profile assignment to ensure rep name matches telephony profile.",
+        "owner": null
+      }
+    ],
+    "suggested_routes": [
+      "sales_coaching",
+      "needs_human_review"
+    ],
+    "review_required": true
+  }
+}

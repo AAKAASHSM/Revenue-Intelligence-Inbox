@@ -1,0 +1,38 @@
+{
+  "source_type": "call",
+  "source_id": "4b870624-8aad-5315-a60e-0db95981cf99",
+  "record_ref": "C02",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "customer_follow_up"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Arun called Fernhaven Group asking to speak with Leela. The receptionist Kavya checked and confirmed Leela was not at her desk, offering to take a message or have Arun call back later.",
+    "why_it_matters": "No substantive business conversation occurred; gatekeeper interaction only.",
+    "evidence": [
+      {
+        "turn": null,
+        "quote": "It looks as though she isn't in the office right now.",
+        "reason": "Receptionist confirms target contact is unavailable."
+      }
+    ],
+    "not_established": [
+      "Whether Leela is interested or aware of SpendNest.",
+      "Leela's job title or decision-making role at Fernhaven Group."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Schedule follow-up dial at an alternate time or request direct email from gatekeeper.",
+        "owner": "Arun"
+      }
+    ],
+    "suggested_routes": [
+      "customer_follow_up"
+    ],
+    "review_required": false
+  }
+}

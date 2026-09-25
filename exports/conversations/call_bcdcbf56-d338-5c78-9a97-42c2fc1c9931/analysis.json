@@ -1,0 +1,43 @@
+{
+  "source_type": "call",
+  "source_id": "bcdcbf56-d338-5c78-9a97-42c2fc1c9931",
+  "record_ref": "C04",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "customer_follow_up"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Arun called Lanternpath Media to follow up on expense software. The call reached an automated call screening service and was dropped or rejected before reaching a human.",
+    "why_it_matters": "No human connection achieved; call was screened out.",
+    "evidence": [
+      {
+        "turn": null,
+        "quote": "Please record your name and the purpose of your call so the recipient can decide whether to answer.",
+        "reason": "Transcript records automated screening prompt."
+      },
+      {
+        "turn": null,
+        "quote": "The person you called is not available.",
+        "reason": "Call ended without connection to recipient."
+      }
+    ],
+    "not_established": [
+      "Whether recipient received notification of the call.",
+      "Current status of Lanternpath Media expense software evaluation."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Retry call during alternate business hours or send direct email follow-up.",
+        "owner": "Arun"
+      }
+    ],
+    "suggested_routes": [
+      "customer_follow_up"
+    ],
+    "review_required": false
+  }
+}

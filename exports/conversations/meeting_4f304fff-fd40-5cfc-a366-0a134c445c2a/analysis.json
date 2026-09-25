@@ -1,0 +1,48 @@
+{
+  "source_type": "meeting",
+  "source_id": "4f304fff-fd40-5cfc-a366-0a134c445c2a",
+  "record_ref": "M07",
+  "applied_revision": 2,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "deal_next_steps"
+  ],
+  "is_manually_corrected": true,
+  "manual_route": "deal_next_steps",
+  "manual_reason": "Manager manual override",
+  "analysis": {
+    "summary": "Technical review of UI description saving issue reported by Customer A at Willowfield Trust. Screen-sharing session confirmed that event-payment descriptions fail to persist after saving, reverting to earlier wording. Team member confirmed reproduction of the bug.",
+    "why_it_matters": "Reproduced software defect in core transaction editing workflow affecting audit compliance at a trust advisory customer.",
+    "evidence": [
+      {
+        "turn": 2,
+        "quote": "The first one is editing the description. I am changing this event-payment description to a short reference.",
+        "reason": "Customer demonstrates the exact transaction edit attempted."
+      },
+      {
+        "turn": 3,
+        "quote": "The field still shows the earlier wording. So the change is not appearing after you save, is that right?",
+        "reason": "SpendNest team member verifies and acknowledges persistence bug."
+      }
+    ],
+    "not_established": [
+      "Engineering root cause (frontend cache vs database update failure).",
+      "Target patch release date for the transaction editing bug."
+    ],
+    "recommended_actions": [
+      {
+        "action": "File urgent engineering defect ticket with screen-recording reproduction details.",
+        "owner": null
+      },
+      {
+        "action": "Notify Customer A once hotfix is deployed to staging.",
+        "owner": null
+      }
+    ],
+    "suggested_routes": [
+      "internal_vendor_note",
+      "customer_follow_up"
+    ],
+    "review_required": false
+  }
+}

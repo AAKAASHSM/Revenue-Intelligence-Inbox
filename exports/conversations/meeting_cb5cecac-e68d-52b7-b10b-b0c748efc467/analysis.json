@@ -1,0 +1,45 @@
+{
+  "source_type": "meeting",
+  "source_id": "cb5cecac-e68d-52b7-b10b-b0c748efc467",
+  "record_ref": "M01",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "deal_next_steps",
+    "customer_follow_up"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Partnership discussion between SpendNest and Harborpath Advisory. Partner A clarified their goal of helping corporate clients open bank accounts remotely. SpendNest clarified it serves registered corporate entities rather than individuals.",
+    "why_it_matters": "Clarified compliance and product boundaries; identified referral criteria for corporate business accounts.",
+    "evidence": [
+      {
+        "turn": 1,
+        "quote": "My understanding was that you help people open bank accounts remotely.",
+        "reason": "Partner expresses initial assumption regarding service capabilities."
+      },
+      {
+        "turn": 2,
+        "quote": "we work with registered businesses, not individuals opening personal accounts.",
+        "reason": "Team member establishes strict regulatory and product boundary."
+      }
+    ],
+    "not_established": [
+      "Formal referral commission agreement or commercial terms.",
+      "Projected volume of eligible corporate clients."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Deliver partner criteria checklist for business entity onboarding.",
+        "owner": null
+      }
+    ],
+    "suggested_routes": [
+      "deal_next_steps",
+      "customer_follow_up"
+    ],
+    "review_required": false
+  }
+}

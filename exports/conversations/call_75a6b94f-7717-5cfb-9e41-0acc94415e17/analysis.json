@@ -1,0 +1,45 @@
+{
+  "source_type": "call",
+  "source_id": "75a6b94f-7717-5cfb-9e41-0acc94415e17",
+  "record_ref": "C05",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "customer_follow_up",
+    "sales_coaching"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Meera conducted an introductory cold call. After resolving initial line echo, she presented SpendNest's value proposition around automated receipt capture and employee expense approvals.",
+    "why_it_matters": "Clean execution of elevator pitch; prospect allowed the 40-second overview.",
+    "evidence": [
+      {
+        "turn": null,
+        "quote": "Could I have about forty seconds to explain?",
+        "reason": "Permission-based cold call opener used."
+      },
+      {
+        "turn": null,
+        "quote": "We eliminate paper receipts and automate approvals directly into the accounting system.",
+        "reason": "Core value proposition articulated."
+      }
+    ],
+    "not_established": [
+      "Prospect's company name or current accounting software.",
+      "Whether prospect agreed to a formal follow-up meeting."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Log prospect response and schedule next touchpoint with tailored workflow summary.",
+        "owner": "Meera"
+      }
+    ],
+    "suggested_routes": [
+      "customer_follow_up",
+      "sales_coaching"
+    ],
+    "review_required": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "source_type": "call",
+  "source_id": "4868e5cd-5ab8-581c-a0e4-acc37385f0cf",
+  "record_ref": "B01",
+  "applied_revision": 1,
+  "analysis_status": "unavailable",
+  "assigned_routes": [
+    "unassigned"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "No usable transcript supplied in this extract.",
+    "why_it_matters": "Background call or unrecorded/cancelled meeting; cannot draw conversation conclusions.",
+    "evidence": [],
+    "not_established": [
+      "All conversation content, topics, and outcomes are unverified."
+    ],
+    "recommended_actions": [],
+    "suggested_routes": [
+      "needs_human_review"
+    ],
+    "review_required": true
+  }
+}

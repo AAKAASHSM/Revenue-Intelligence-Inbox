@@ -1,0 +1,45 @@
+{
+  "source_type": "call",
+  "source_id": "4a1de681-f884-55e8-b1ad-de22d17cd959",
+  "record_ref": "C09",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "customer_follow_up",
+    "deal_next_steps"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Meera called Vedant regarding corporate card controls and spending limits. Vedant confirmed current manual reimbursement friction and asked for product information.",
+    "why_it_matters": "Active pain point identified around employee reimbursement turnaround times.",
+    "evidence": [
+      {
+        "turn": null,
+        "quote": "We provide pre-funded corporate cards with built-in spending limits.",
+        "reason": "Rep pitches card controls."
+      },
+      {
+        "turn": null,
+        "quote": "Reimbursements currently take our accounts team over a week every month-end.",
+        "reason": "Prospect confirms specific operational bottleneck."
+      }
+    ],
+    "not_established": [
+      "Number of corporate cardholders needed.",
+      "Budget or contract authorization timeline."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Send case study on month-end close acceleration and corporate card control brochure.",
+        "owner": "Meera"
+      }
+    ],
+    "suggested_routes": [
+      "customer_follow_up",
+      "deal_next_steps"
+    ],
+    "review_required": false
+  }
+}

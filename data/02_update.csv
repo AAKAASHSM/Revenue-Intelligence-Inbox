@@ -1,0 +1,28 @@
+batch_id,revision,batch_exported_at,record_ref,source_type,source_id,person,person_email,date,started_at,duration_seconds,talk_time_seconds,direction,observed_outcome,external_id,title,provider,attendee_count,recording_status,transcript_available,transcript_turns_count,transcript_text,raw_summary
+update-002,2,2026-08-22T10:00:00+05:30,M07,meeting,4f304fff-fd40-5cfc-a366-0a134c445c2a,team09@example.com,team09@example.com,2026-08-21,2026-08-21T05:30:00Z,1236,0,,,4f304fff-fd40-5cfc-a366-0a134c445c2a,Willowfield Trust / SpendNest discussion,google_meet,1,recorded,True,27,"[Team member A 00:08:36]: I wanted to go through the issues you sent yesterday. If you share your screen, we can look at what is happening and I can take the details back to the team.
+[Customer A 00:09:59]: The first one is editing the description. I am changing this event-payment description to a short reference and clicking Save changes. Now look at the displayed description again.
+[Team member A 00:11:16]: The field still shows the earlier wording. So the change is not appearing after you save, is that right?
+[Customer A 00:11:31]: Yes, it is still the old description. That is why I sent it across.
+[Team member A 00:11:33]: Please reopen Edit. I want to see whether the editing form has the new value while the other screen still has the old one.
+[Customer A 00:11:47]: I will change it again to a different reference and save. It is saved now; let us check the other screen once more.
+[Team member A 00:12:08]: I have captured screenshots of that behaviour. I will get it checked today. I do not have an explanation for it yet.
+[Customer A 00:12:25]: Next is Recreate payment. Can we look at that here? When I go through this route, I cannot upload a document.
+[Team member A 00:12:39]: A new attachment is not being accepted on this screen? First click Save changes at the bottom, before creating the bill, so we can check the alternative path.
+[Customer A 00:12:59]: Saved. I have gone into Bill pay and then the invoice inbox. Now I am opening the Review option.
+[Team member A 00:13:22]: Try attaching the invoice here. I am checking whether the upload itself fails or whether it is specifically the screen reached from Recreate payment.
+[Customer A 00:13:38]: It uploads here. This route works, so it is not that I cannot attach a file anywhere.
+[Team member A 00:13:40]: Please also check Manage documents for adding another attachment. While the team investigates the direct route, the workaround is to save the changes, return to the invoice inbox, open Review and upload the document there.
+[Customer A 00:14:53]: Okay, we have an alternative for now. It is still extra steps compared with doing it directly when recreating the payment.
+[Team member A 00:14:54]: Yes. I will still raise the original behaviour with the team. The workaround does not mean the direct upload issue has been resolved.
+[Customer A 00:15:01]: The next issue is in reimbursements. I cannot select the first group of transactions on this screen.
+[Team member A 00:15:10]: Those payments are already in Processing, which is why selection is disabled. Is this only for one user, or are others seeing the same thing?
+[Customer A 00:15:31]: It happened for another user too, though that instance was resolved later. This set is still in the same state.
+[Team member A 00:15:37]: The payments appear to have been released but are stuck showing Processing. I have asked the team to look at these. I expect an update or resolution in an hour or two, and I will inform you when they confirm.
+[Customer A 00:16:23]: There is one more problem. It was not in the original list, but I can show it now while we are here.
+[Customer A 00:16:27]: When I use Mark as paid, the first payment shows INR 18,200. I enter the amount I need and save that payment. Then I open the next payment and choose Mark as paid again.
+[Customer A 00:17:33]: The amount from the previous item appears in the next one. Each time I have to cancel, leave it and open Mark as paid again before it shows the right information.
+[Team member A 00:17:50]: Let me confirm: it is retaining the previous amount rather than fetching the next payment's value. It should refresh when the next item opens, but that is not what we are seeing.
+[Customer A 00:17:55]: Yes, the old value carries forward. So I end up doing the same action twice for each item.
+[Team member A 00:18:07]: I understand the sequence now. I will report that separately as well, with the steps you showed, and ask the team to investigate the refresh behaviour.
+[Customer A 00:18:16]: Those are the current issues. The attachment workaround helps, but we still need the other items checked.
+[Team member A 00:18:19]: I will send the details to the team, get their confirmation and come back to you. Thank you for showing the actual steps rather than only the final screen.",

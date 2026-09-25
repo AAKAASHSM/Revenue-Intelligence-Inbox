@@ -1,0 +1,43 @@
+{
+  "source_type": "call",
+  "source_id": "b747f592-810e-583c-9b81-8db5ab035806",
+  "record_ref": "C10",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "customer_follow_up"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Meera contacted Aniket regarding invoice scanning and vendor approval automation. Aniket noted they already have a process in place but agreed to receive a deck.",
+    "why_it_matters": "Low urgency prospect; requires nurturing rather than aggressive immediate close.",
+    "evidence": [
+      {
+        "turn": null,
+        "quote": "SpendNest brings together scheduled vendor payouts and invoice extraction.",
+        "reason": "Pitch highlights AP automation."
+      },
+      {
+        "turn": null,
+        "quote": "We have an internal routine, but you can send an overview to my email.",
+        "reason": "Prospect permits email follow-up without committing to meeting."
+      }
+    ],
+    "not_established": [
+      "Satisfaction level with existing vendor payment routine.",
+      "Decision timeline or review cycles."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Send high-level overview deck focusing on OCR accuracy and automated approval workflows.",
+        "owner": "Meera"
+      }
+    ],
+    "suggested_routes": [
+      "customer_follow_up"
+    ],
+    "review_required": false
+  }
+}

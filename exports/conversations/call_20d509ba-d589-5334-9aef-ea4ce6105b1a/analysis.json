@@ -1,0 +1,45 @@
+{
+  "source_type": "call",
+  "source_id": "20d509ba-d589-5334-9aef-ea4ce6105b1a",
+  "record_ref": "C03",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "deal_next_steps",
+    "customer_follow_up"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Kiran followed up with Milan regarding developer API access previously discussed. Milan noted poor audio, asked for updated API documentation, and requested follow-up over email.",
+    "why_it_matters": "Developer integration interest confirmed, but conversation stalled due to audio connectivity issues.",
+    "evidence": [
+      {
+        "turn": null,
+        "quote": "We discussed developer access a while ago, and you asked for technical details.",
+        "reason": "Establishes prior engagement regarding API access."
+      },
+      {
+        "turn": null,
+        "quote": "Send the documentation through to my email so my team can review the endpoints.",
+        "reason": "Customer requests written technical specifications for review."
+      }
+    ],
+    "not_established": [
+      "Specific technical stack or ERP system Milan's team is integrating with.",
+      "Target implementation dates or scope of integration."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Email latest developer API reference and endpoint documentation to Milan.",
+        "owner": "Kiran"
+      }
+    ],
+    "suggested_routes": [
+      "deal_next_steps",
+      "customer_follow_up"
+    ],
+    "review_required": false
+  }
+}

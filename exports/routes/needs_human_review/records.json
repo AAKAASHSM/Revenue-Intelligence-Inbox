@@ -1,0 +1,36 @@
+{
+  "route": "needs_human_review",
+  "record_count": 2,
+  "records": [
+    {
+      "source_type": "call",
+      "source_id": "12216d5c-e254-52c6-b344-47de4c6e1ae5",
+      "record_ref": "C06",
+      "person": "Meera",
+      "date": "2026-08-21",
+      "duration_seconds": 153.0,
+      "assigned_routes": "sales_coaching;needs_human_review",
+      "manually_corrected": false,
+      "review_state": "current",
+      "summary": "Cold call to Nikhil exploring payables workflow. Rep introduced SpendNest's vendor handling features. Discrepancy noted between account display name and spoken introduction ('Ravi here').",
+      "key_action": "Review telephony login / profile assignment to ensure rep name matches telephony profile.",
+      "action_owner": "unassigned",
+      "detail_link": "conversations/call_12216d5c-e254-52c6-b344-47de4c6e1ae5/analysis.json"
+    },
+    {
+      "source_type": "meeting",
+      "source_id": "b0f79b3d-37ba-52f9-b2bc-58b159dd6d91",
+      "record_ref": "M04",
+      "person": "team09@example.com",
+      "date": "2026-08-21",
+      "duration_seconds": 1985.0,
+      "assigned_routes": "customer_follow_up;sales_coaching;needs_human_review",
+      "manually_corrected": false,
+      "review_state": "current",
+      "summary": "Cedarwave Distribution discussed card migration and acceptance issues. Customer expressed surprise regarding mobile wallet availability (Apple/Google Pay) and physical card acceptance failures.",
+      "key_action": "Escalate wallet-payment roadmap status to product operations and provide fallback guidance for POS declines.",
+      "action_owner": "unassigned",
+      "detail_link": "conversations/meeting_b0f79b3d-37ba-52f9-b2bc-58b159dd6d91/analysis.json"
+    }
+  ]
+}

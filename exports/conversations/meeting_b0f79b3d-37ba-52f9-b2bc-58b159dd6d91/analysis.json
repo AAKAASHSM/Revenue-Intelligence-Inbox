@@ -1,0 +1,47 @@
+{
+  "source_type": "meeting",
+  "source_id": "b0f79b3d-37ba-52f9-b2bc-58b159dd6d91",
+  "record_ref": "M04",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "customer_follow_up",
+    "sales_coaching",
+    "needs_human_review"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Cedarwave Distribution discussed card migration and acceptance issues. Customer expressed surprise regarding mobile wallet availability (Apple/Google Pay) and physical card acceptance failures.",
+    "why_it_matters": "High-risk retention/migration conversation; technical acceptance failures directly impact cardholder adoption.",
+    "evidence": [
+      {
+        "turn": 2,
+        "quote": "Much of your usage is physical-card spending. We have seen acceptance problems with the existing provider.",
+        "reason": "Team member highlights known POS terminal acceptance issues."
+      },
+      {
+        "turn": 3,
+        "quote": "I thought the wallet-payment option was coming to our existing cards too.",
+        "reason": "Customer reveals unmet expectation regarding digital wallet support."
+      }
+    ],
+    "not_established": [
+      "Exact timeline for mobile wallet tokenization launch.",
+      "Specific merchant category codes (MCCs) where cards were declined."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Escalate wallet-payment roadmap status to product operations and provide fallback guidance for POS declines.",
+        "owner": null
+      }
+    ],
+    "suggested_routes": [
+      "customer_follow_up",
+      "sales_coaching",
+      "needs_human_review"
+    ],
+    "review_required": true
+  }
+}

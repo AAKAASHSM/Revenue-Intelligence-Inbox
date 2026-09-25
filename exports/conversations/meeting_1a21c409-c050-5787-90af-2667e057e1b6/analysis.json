@@ -1,0 +1,45 @@
+{
+  "source_type": "meeting",
+  "source_id": "1a21c409-c050-5787-90af-2667e057e1b6",
+  "record_ref": "M02",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "deal_next_steps",
+    "internal_vendor_note"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Technical and strategic discussion with LedgerBridge regarding electronic invoicing and multi-entity billing workflows. Supplier emphasized standard approved layouts and automated validation.",
+    "why_it_matters": "Critical product integration discussion; customer has multi-entity architectural requirements that must align with SpendNest API capabilities.",
+    "evidence": [
+      {
+        "turn": 3,
+        "quote": "Electronic invoicing is the bigger opportunity. Customers already have approved invoice layouts.",
+        "reason": "Team member identifies primary technical integration priority."
+      },
+      {
+        "turn": 12,
+        "quote": "We require multi-entity support where invoices can be routed across separate subsidiary tax IDs.",
+        "reason": "Prospect details critical multi-entity prerequisite."
+      }
+    ],
+    "not_established": [
+      "Whether SpendNest engineering currently supports the required tax ID hierarchy.",
+      "Final sign-off timeline from LedgerBridge architecture committee."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Confirm multi-entity tax routing capabilities with product engineering and provide schema spec.",
+        "owner": null
+      }
+    ],
+    "suggested_routes": [
+      "deal_next_steps",
+      "internal_vendor_note"
+    ],
+    "review_required": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "source_type": "meeting",
+  "source_id": "657b9e9d-9472-5b01-a127-a648ad7e8cf7",
+  "record_ref": "M06",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "deal_next_steps",
+    "customer_follow_up"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Exploratory call with finance lead at Mapletrail Services branch office. Contact explained they operate as an autonomous software branch and inquired about spend limits separate from headquarters.",
+    "why_it_matters": "Branch vs HQ autonomy dynamic: requires navigating local procurement authority vs corporate centralized sign-off.",
+    "evidence": [
+      {
+        "turn": 2,
+        "quote": "I handle finance for one branch of Mapletrail Services. We do software development and testing.",
+        "reason": "Customer explains organizational scope and branch independence."
+      }
+    ],
+    "not_established": [
+      "Whether central headquarters must approve software subscriptions at branch level.",
+      "Annual IT/software testing spend budget."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Map branch approval matrix and send pricing breakdown for independent department workspaces.",
+        "owner": null
+      }
+    ],
+    "suggested_routes": [
+      "deal_next_steps",
+      "customer_follow_up"
+    ],
+    "review_required": false
+  }
+}

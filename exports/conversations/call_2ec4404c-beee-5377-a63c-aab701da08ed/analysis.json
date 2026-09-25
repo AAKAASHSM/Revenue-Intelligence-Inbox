@@ -1,0 +1,45 @@
+{
+  "source_type": "call",
+  "source_id": "2ec4404c-beee-5377-a63c-aab701da08ed",
+  "record_ref": "C01",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "customer_follow_up",
+    "sales_coaching"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Arun cold-called Pranav to pitch SpendNest for outsourced financial teams. Pranav indicated his firm already uses two software packages and is not actively looking, but did not completely shut down future contact if materials are sent.",
+    "why_it_matters": "Prospect has existing tooling and high switching inertia. Pushing generic product pitches without addressing existing software overlap is ineffective.",
+    "evidence": [
+      {
+        "turn": null,
+        "quote": "We work with outsourced finance teams that manage client books.",
+        "reason": "Arun identifies SpendNest's target market segment."
+      },
+      {
+        "turn": null,
+        "quote": "We already have software for our firm. We use two packages.",
+        "reason": "Prospect explicitly states they already have established software solutions."
+      }
+    ],
+    "not_established": [
+      "Specific software names used by Pranav's firm are not named in the conversation.",
+      "Deal size, contract renewal timeline, and budget authority are not established."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Send comparison one-pager highlighting multi-client bookkeeping efficiencies over standard accounting software.",
+        "owner": "Arun"
+      }
+    ],
+    "suggested_routes": [
+      "customer_follow_up",
+      "sales_coaching"
+    ],
+    "review_required": false
+  }
+}

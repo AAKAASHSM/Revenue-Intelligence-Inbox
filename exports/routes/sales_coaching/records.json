@@ -1,0 +1,81 @@
+{
+  "route": "sales_coaching",
+  "record_count": 5,
+  "records": [
+    {
+      "source_type": "call",
+      "source_id": "2ec4404c-beee-5377-a63c-aab701da08ed",
+      "record_ref": "C01",
+      "person": "Arun",
+      "date": "2026-08-21",
+      "duration_seconds": 99.0,
+      "assigned_routes": "customer_follow_up;sales_coaching",
+      "manually_corrected": false,
+      "review_state": "current",
+      "summary": "Arun cold-called Pranav to pitch SpendNest for outsourced financial teams. Pranav indicated his firm already uses two software packages and is not actively looking, but did not completely shut down future contact if materials are sent.",
+      "key_action": "Send comparison one-pager highlighting multi-client bookkeeping efficiencies over standard accounting software.",
+      "action_owner": "Arun",
+      "detail_link": "conversations/call_2ec4404c-beee-5377-a63c-aab701da08ed/analysis.json"
+    },
+    {
+      "source_type": "call",
+      "source_id": "75a6b94f-7717-5cfb-9e41-0acc94415e17",
+      "record_ref": "C05",
+      "person": "Meera",
+      "date": "2026-08-21",
+      "duration_seconds": 165.0,
+      "assigned_routes": "customer_follow_up;sales_coaching",
+      "manually_corrected": false,
+      "review_state": "current",
+      "summary": "Meera conducted an introductory cold call. After resolving initial line echo, she presented SpendNest's value proposition around automated receipt capture and employee expense approvals.",
+      "key_action": "Log prospect response and schedule next touchpoint with tailored workflow summary.",
+      "action_owner": "Meera",
+      "detail_link": "conversations/call_75a6b94f-7717-5cfb-9e41-0acc94415e17/analysis.json"
+    },
+    {
+      "source_type": "call",
+      "source_id": "12216d5c-e254-52c6-b344-47de4c6e1ae5",
+      "record_ref": "C06",
+      "person": "Meera",
+      "date": "2026-08-21",
+      "duration_seconds": 153.0,
+      "assigned_routes": "sales_coaching;needs_human_review",
+      "manually_corrected": false,
+      "review_state": "current",
+      "summary": "Cold call to Nikhil exploring payables workflow. Rep introduced SpendNest's vendor handling features. Discrepancy noted between account display name and spoken introduction ('Ravi here').",
+      "key_action": "Review telephony login / profile assignment to ensure rep name matches telephony profile.",
+      "action_owner": "unassigned",
+      "detail_link": "conversations/call_12216d5c-e254-52c6-b344-47de4c6e1ae5/analysis.json"
+    },
+    {
+      "source_type": "meeting",
+      "source_id": "b0f79b3d-37ba-52f9-b2bc-58b159dd6d91",
+      "record_ref": "M04",
+      "person": "team09@example.com",
+      "date": "2026-08-21",
+      "duration_seconds": 1985.0,
+      "assigned_routes": "customer_follow_up;sales_coaching;needs_human_review",
+      "manually_corrected": false,
+      "review_state": "current",
+      "summary": "Cedarwave Distribution discussed card migration and acceptance issues. Customer expressed surprise regarding mobile wallet availability (Apple/Google Pay) and physical card acceptance failures.",
+      "key_action": "Escalate wallet-payment roadmap status to product operations and provide fallback guidance for POS declines.",
+      "action_owner": "unassigned",
+      "detail_link": "conversations/meeting_b0f79b3d-37ba-52f9-b2bc-58b159dd6d91/analysis.json"
+    },
+    {
+      "source_type": "meeting",
+      "source_id": "337f297d-9385-5b82-9e54-5019c1ed912c",
+      "record_ref": "M10",
+      "person": "team12@example.com",
+      "date": "2026-08-21",
+      "duration_seconds": 1428.0,
+      "assigned_routes": "customer_follow_up;sales_coaching",
+      "manually_corrected": false,
+      "review_state": "current",
+      "summary": "Internal / customer walkthrough covering recurring billing cycles and subscription invoice adjustments. Team member A guided participant through remaining billing portal sections.",
+      "key_action": "Distribute billing portal administrator guide and recorded walkthrough snippet.",
+      "action_owner": "unassigned",
+      "detail_link": "conversations/meeting_337f297d-9385-5b82-9e54-5019c1ed912c/analysis.json"
+    }
+  ]
+}

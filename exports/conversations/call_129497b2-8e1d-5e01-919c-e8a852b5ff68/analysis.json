@@ -1,0 +1,45 @@
+{
+  "source_type": "call",
+  "source_id": "129497b2-8e1d-5e01-919c-e8a852b5ff68",
+  "record_ref": "C08",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "customer_follow_up",
+    "deal_next_steps"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Meera called Raghav to introduce unified expense and payables management. Raghav listened to the pitch and asked about accounting sync capabilities.",
+    "why_it_matters": "Positive engagement; prospect focused specifically on reconciliation workload reduction.",
+    "evidence": [
+      {
+        "turn": null,
+        "quote": "We help companies bring fragmented expense and payables workflows into one interface.",
+        "reason": "Meera states primary solution value."
+      },
+      {
+        "turn": null,
+        "quote": "How does it synchronize with existing ledgers?",
+        "reason": "Prospect demonstrates technical evaluation interest."
+      }
+    ],
+    "not_established": [
+      "Current ERP/accounting system used by Raghav's team.",
+      "Buying committee and purchase approval authority."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Send overview of accounting synchronization capabilities and schedule 15-minute demo.",
+        "owner": "Meera"
+      }
+    ],
+    "suggested_routes": [
+      "customer_follow_up",
+      "deal_next_steps"
+    ],
+    "review_required": false
+  }
+}

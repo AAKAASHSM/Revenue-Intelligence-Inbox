@@ -1,0 +1,45 @@
+{
+  "source_type": "call",
+  "source_id": "428817fa-7e9e-5418-a7d4-bb396d28dfbf",
+  "record_ref": "C07",
+  "applied_revision": 1,
+  "analysis_status": "current",
+  "assigned_routes": [
+    "deal_next_steps",
+    "customer_follow_up"
+  ],
+  "is_manually_corrected": false,
+  "manual_route": null,
+  "manual_reason": "",
+  "analysis": {
+    "summary": "Dev contacted Aditya at Willowbank Advisory to discuss a partnership around cross-border company incorporation and business bank account opening services.",
+    "why_it_matters": "Strategic partner exploration; potential channel for inbound corporate account referrals.",
+    "evidence": [
+      {
+        "turn": null,
+        "quote": "I wanted to ask about a possible partnership. Do you help clients incorporate companies overseas?",
+        "reason": "Dev defines scope of partnership inquiry."
+      },
+      {
+        "turn": null,
+        "quote": "We often assist clients establishing Singapore and UK entities.",
+        "reason": "Aditya confirms active international incorporation practice."
+      }
+    ],
+    "not_established": [
+      "Commercial partnership terms or revenue-share agreement.",
+      "Client volume or referral commitment."
+    ],
+    "recommended_actions": [
+      {
+        "action": "Prepare partnership brief outlining onboarding process for newly incorporated foreign entities.",
+        "owner": "Dev"
+      }
+    ],
+    "suggested_routes": [
+      "deal_next_steps",
+      "customer_follow_up"
+    ],
+    "review_required": false
+  }
+}
