@@ -4,5 +4,8 @@
   "private": true,
   "scripts": {
     "build": "cd frontend && npm install && npm run build"
+  },
+  "devDependencies": {
+    "vercel": "^60.0.1"
   }
 }

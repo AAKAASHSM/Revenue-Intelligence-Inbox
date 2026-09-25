@@ -50,3 +50,5 @@ exports/*.zip
 Thumbs.db
 .vercel
 
+
+.vercel

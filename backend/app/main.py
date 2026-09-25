@@ -1,6 +1,6 @@
 import os
 from contextlib import asynccontextmanager
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from .config import settings
 from .database import engine, Base, SessionLocal
@@ -47,6 +47,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.middleware("http")
+async def ensure_api_prefix(request: Request, call_next):
+    # Support reverse proxies or serverless platforms where /api might be stripped
+    path = request.scope.get("path", "")
+    if path and not path.startswith("/api") and path not in ("/", "/docs", "/redoc", "/openapi.json"):
+        request.scope["path"] = f"/api{path}"
+    return await call_next(request)
+
 # Register routers
 app.include_router(dashboard.router)
 app.include_router(records.router)
@@ -63,6 +71,7 @@ def root():
         "date_context": "2026-08-21 (Asia/Kolkata)"
     }
 
+@app.get("/health")
 @app.get("/api/health")
 def health_check():
     return {"status": "healthy"}
