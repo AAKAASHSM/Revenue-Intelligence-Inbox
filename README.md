@@ -182,33 +182,7 @@ To demonstrate the full assignment test specification, navigate to the **Import 
 
 ---
 
-## 7. Three-Minute Demo Checklist
-
-For a clean, convincing 3-minute video recording or evaluation walkthrough:
-
-- [ ] **Minute 0:00 - 0:45: Overview & The Manager Problem**
-  - Open `http://127.0.0.1:5173/` on the **Dashboard**.
-  - Highlight calculated metrics: 44 Total Records, 30 Calls, 14 Meetings, 17/44 Usable Transcripts with explicit denominator.
-  - Explain why speculative revenue forecasting was rejected (avoiding CRM hallucinations).
-- [ ] **Minute 0:45 - 1:30: Two-Column Workspace & Difficult Routing Case**
-  - Open **Inbox**, search for `M04` (Cedarwave Distribution).
-  - Show the two-column layout: Left Transcript Turns vs Right Intelligence Panel.
-  - Click `[View Evidence]` on Turn 2 to demonstrate synchronized auto-scroll and highlight.
-  - Explain the difficult routing dilemma: Multi-routed to `customer_follow_up`, `sales_coaching`, and `needs_human_review`.
-- [ ] **Minute 1:30 - 2:30: Replay Test, Duplicate Prevention & Manual Override**
-  - Open `M07` (Willowfield Trust) in initial state: shows "Transcript unavailable" and "Awaiting revision 2".
-  - Manually change route to `deal_next_steps` and click `[Save Correction]`.
-  - Navigate to **Import & Replay** tab.
-  - Click `[Import Initial Batch Again]` -> Point to summary card: **0 created, 44 duplicates prevented**! Total remains 44.
-  - Click `[Import Update Batch]` -> Show M07 updated to Revision 2.
-  - Return to M07: Point out that **27 turns are now available**, total records remains **44**, and the **manual route correction survived**!
-- [ ] **Minute 2:30 - 3:00: Manager Brief & Physical Export Manifest**
-  - Click **Manager Brief** tab: Review executive summary for 21 Aug 2026 Asia/Kolkata, P0 bug escalation, and coaching observations.
-  - Navigate to **Import & Replay**, click `[Generate Export Files]` and `[Download ZIP Archive]`. Show physical manifest.json and manifest.csv.
-
----
-
-## 8. Three Most Important Findings
+## 7. Three Most Important Findings
 
 ### Finding 1: Critical UI Defect Reproducibility (M07 - Willowfield Trust)
 - **Observation:** In meeting M07, Customer A reported that editing event-payment descriptions fails to persist after clicking save, reverting to earlier wording. The screen-share session verified an active frontend persistence defect.
@@ -232,7 +206,7 @@ For a clean, convincing 3-minute video recording or evaluation walkthrough:
 
 ---
 
-## 9. One Deliberately Rejected Decision
+## 8. One Deliberately Rejected Decision
 
 - **Alternative Considered:** Building an automated pipeline currency forecasting engine and a salesperson leaderboard ranking reps by call volume and conversion.
 - **Reason for Rejection:** The supplied dataset contains zero CRM opportunity objects, no verified deal sizes (ACVs), and no company organizational hierarchy. Calculating pipeline values or conversion rankings would require fabricating numbers unsupported by source evidence.
@@ -240,7 +214,7 @@ For a clean, convincing 3-minute video recording or evaluation walkthrough:
 
 ---
 
-## 10. Metric Definitions & Denominators
+## 9. Metric Definitions & Denominators
 
 | Metric Name | Display Format | Definition & Denominator |
 |:---|:---|:---|
@@ -254,7 +228,7 @@ For a clean, convincing 3-minute video recording or evaluation walkthrough:
 
 ---
 
-## 11. AI Behavior, Schema & Resilience
+## 10. AI Behavior, Schema & Resilience
 
 ### Strict Gemini System Prompt Guardrails
 The backend integrates Google Gemini 1.5 Flash using a strict JSON schema and non-negotiable prompt instructions:
@@ -297,7 +271,7 @@ The backend integrates Google Gemini 1.5 Flash using a strict JSON schema and no
 
 ---
 
-## 12. Exports & Manifest Structure
+## 11. Exports & Manifest Structure
 
 Triggering `/api/export` generates physical files in `exports/` in both JSON and CSV formats:
 ```
@@ -375,13 +349,13 @@ In addition to the raw JSON envelopes, CSV versions of the incoming batches are 
 
 ---
 
-## 13. Five Presentation Slides
+## 12. Five Presentation Slides
 
 The complete text and defense notes for the 5 presentation slides are documented in [`docs/SLIDES.md`](docs/SLIDES.md).
 
 ---
 
-## 14. Development Time & Known Limitations
+## 13. Development Time & Known Limitations
 
 - **Approximate Development Time:** ~7.5 hours (architecture design, database modeling, idempotent replay logic, evidence citation engine, React/Tailwind frontend, Gemini API integration, export generation, and documentation).
 - **Known Limitations:**
