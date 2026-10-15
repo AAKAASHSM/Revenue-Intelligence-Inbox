@@ -11,14 +11,13 @@ A professional sales operations workspace and revenue intelligence inbox built f
 4. [Environment Setup & Installation](#environment-setup--installation)
 5. [How to Run the Application](#how-to-run-the-application)
 6. [Data Replay & Demonstration Guide](#data-replay--demonstration-guide)
-7. [Three-Minute Demo Checklist](#three-minute-demo-checklist)
-8. [Three Most Important Findings](#three-most-important-findings)
-9. [One Deliberately Rejected Decision](#one-deliberately-rejected-decision)
-10. [Metric Definitions & Denominators](#metric-definitions--denominators)
-11. [AI Behavior, Schema & Resilience](#ai-behavior-schema--resilience)
-12. [Exports & Manifest Structure](#exports--manifest-structure)
-13. [Five Presentation Slides](#five-presentation-slides)
-14. [Development Time & Known Limitations](#development-time--known-limitations)
+7. [Three Most Important Findings](#three-most-important-findings)
+8. [One Deliberately Rejected Decision](#one-deliberately-rejected-decision)
+9. [Metric Definitions & Denominators](#metric-definitions--denominators)
+10. [AI Behavior, Schema & Resilience](#ai-behavior-schema--resilience)
+11. [Exports & Manifest Structure](#exports--manifest-structure)
+12. [Five Presentation Slides](#five-presentation-slides)
+13. [Development Time & Known Limitations](#development-time--known-limitations)
 
 ---
 
